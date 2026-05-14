@@ -19,16 +19,25 @@ This data is then used to engineer condition-monitoring features and train a Mac
 </p>
 4. **Synthetic Data Generation:** Executed 100+ automated simulation runs, injecting Additive White Gaussian Noise (AWGN) to simulate real-world industrial sensor interference.
 5. **Feature Engineering:** Extracted critical statistical health indicators from the raw signals, including **RMS Current**, **Kurtosis of Speed**, **Peak-to-Peak Current**, and **Settling Time**.
-![Feature Scatter PLOT 1](Images/MaxCurrent_AvgSpeed_plot.png)
+<p align="center">
+  <img src="Images/MaxCurrent_AvgSpeed_plot.png" width="70%">
+</p>
 *Max Current vs Avg Speed*
-![Feature Scatter PLOT 2](Images/SettleTime_P2PCurrent_plot.png)
+<p align="center">
+  <img src="Images/SettleTime_P2PCurrent_plot.png" width="70%">
+</p>
 *Settling Time vs Peak to Peak Current*
 6. **AI Classification:** Trained a Support Vector Machine (SVM) to categorize the motor's health into three distinct states: *Healthy*, *Maintenance Needed*, and *Critical Failure*.
-![Model Predictions](Images/Model_predictions_plot.png)
+<p align="center">
+  <img src="Images/Model_predictions_plot.png" width="70%">
+</p>
 *Scatter plot of predictions*
 
 ## 📊 Results
-![Confusion Matrix](Images/Validation_Confusion_Matrix.png)
+<p align="center">
+  <img src="Images/Validation_Confusion_Matrix.png" width="70%">
+</p>
+*Confusion Matrix*
 
 ## Key Performance Metrics
 1. **Overall Accuracy:** The Support Vector Machine (SVM) classifier achieved **>90% accuracy** on unseen synthetic test data.
