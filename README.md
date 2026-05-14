@@ -15,12 +15,12 @@ This data is then used to engineer condition-monitoring features and train a Mac
 2. **Automated Fault Injection:** Digitally aged the equipment by programmatically varying the internal friction coefficient ($B$) for bearing wear, and winding resistance ($R$) for insulation breakdown.
 3. **Synthetic Data Generation:** Executed 100+ automated simulation runs, injecting Additive White Gaussian Noise (AWGN) to simulate real-world industrial sensor interference.
 4. **Feature Engineering:** Extracted critical statistical health indicators from the raw signals, including **RMS Current**, **Kurtosis of Speed**, **Peak-to-Peak Current**, and **Settling Time**.
-![Feature Scatter PLOT 1](Maxcurrent_AvgSpeed_plot.png)
+![Feature Scatter PLOT 1](Images/Maxcurrent_AvgSpeed_plot.png)
 *Max Current vs Avg Speed*
-![Feature Scatter PLOT 2](SettleTime_P2PCurrent_plot.png)
+![Feature Scatter PLOT 2](Images/SettleTime_P2PCurrent_plot.png)
 *Settling Time vs Peak to Peak Current*
 6. **AI Classification:** Trained a Support Vector Machine (SVM) to categorize the motor's health into three distinct states: *Healthy*, *Maintenance Needed*, and *Critical Failure*.
-![Model Predictions](Model_predictions_plot.png)
+![Model Predictions](Images/Model_predictions_plot.png)
 *Scatter plot of predictions*
 
 ## 📊 Results
