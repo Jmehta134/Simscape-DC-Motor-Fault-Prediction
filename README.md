@@ -1,6 +1,7 @@
 # Simscape-DC-Motor-Fault-Prediction
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2023b-blue.svg)
 ![Simscape](https://img.shields.io/badge/Simscape-Physics-orange.svg)
+[![Simulink](https://img.shields.io/badge/Simulink-8A2BE2?logo=mathworks&logoColor=white)](https://mathworks.com/products/simulink.html)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-SVM-green.svg)
 Simulating bearing wear and winding faults in a DC Motor to build a machine learning-based predictive maintenance tool.
 
