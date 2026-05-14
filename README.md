@@ -24,7 +24,7 @@ This data is then used to engineer condition-monitoring features and train a Mac
 *Scatter plot of predictions*
 
 ## 📊 Results
-![Confusion Matrix](Validation Confusion Matrix.png)
+![Confusion Matrix](Images/Validation_Confusion_Matrix.png)
 
 ## Key Performance Metrics
 **Overall Accuracy:** The Support Vector Machine (SVM) classifier achieved **>90% accuracy** on unseen synthetic test data.
