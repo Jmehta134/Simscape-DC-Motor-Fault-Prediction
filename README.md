@@ -14,8 +14,9 @@ This data is then used to engineer condition-monitoring features and train a Mac
 
 1. **Physical Modeling (The Twin):** Developed a high-fidelity first-principles model utilizing electrical (Resistance/Inductance) and mechanical (Inertia/Friction) domains.
 2. **Automated Fault Injection:** Digitally aged the equipment by programmatically varying the internal friction coefficient ($B$) for bearing wear, and winding resistance ($R$) for insulation breakdown.
-![Motor_Torque_Simulation](Images/Torque.gif)
-*Motor Torque with Sensor Noise*
+<p align="center">
+  <img src="Images/Torque.gif" alt="Motor Torque with Sensor Noise" width="70%">
+</p>
 4. **Synthetic Data Generation:** Executed 100+ automated simulation runs, injecting Additive White Gaussian Noise (AWGN) to simulate real-world industrial sensor interference.
 5. **Feature Engineering:** Extracted critical statistical health indicators from the raw signals, including **RMS Current**, **Kurtosis of Speed**, **Peak-to-Peak Current**, and **Settling Time**.
 ![Feature Scatter PLOT 1](Images/MaxCurrent_AvgSpeed_plot.png)
