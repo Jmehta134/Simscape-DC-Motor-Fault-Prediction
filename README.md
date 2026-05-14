@@ -27,6 +27,6 @@ This data is then used to engineer condition-monitoring features and train a Mac
 ![Confusion Matrix](Images/Validation_Confusion_Matrix.png)
 
 ## Key Performance Metrics
-**Overall Accuracy:** The Support Vector Machine (SVM) classifier achieved **>90% accuracy** on unseen synthetic test data.
-**Physics Insight:** The feature extraction phase revealed that Steady-State Speed alone is insufficient for diagnosis, as a drop in speed could be caused by either mechanical friction or a drop in supply voltage.
-**Data Strategy:** By fusing the mechanical performance (Speed) with the electrical effort (RMS Current) and analyzing dynamic behavior (Kurtosis), the model successfully decoupled mechanical faults from electrical faults.
+1. **Overall Accuracy:** The Support Vector Machine (SVM) classifier achieved **>90% accuracy** on unseen synthetic test data.
+2. **Physics Insight:** The feature extraction phase revealed that Steady-State Speed alone is insufficient for diagnosis, as a drop in speed could be caused by either mechanical friction or a drop in supply voltage.
+3. **Data Strategy:** By fusing the mechanical performance (Speed) with the electrical effort (RMS Current) and analyzing dynamic behavior (Kurtosis), the model successfully decoupled mechanical faults from electrical faults.
